@@ -1,0 +1,32 @@
+﻿@{
+	Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<link href="/CSS/Login.css" rel="stylesheet" />
+
+<div class="container">
+	<div class="card">
+		<div class="card-header"><h4 id="girisYapText">Giriş Yap</h4></div>
+		<div class="card-body">					
+			<form method="post">				
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">E-Posta</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					<div id="emailHelp" class="form-text">E-postanızı asla başkalarıyla paylaşmayacağız..</div>
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputPassword1" class="form-label">Şifre</label>
+					<input type="password" class="form-control" id="exampleInputPassword1">
+				</div>
+				<div id="huhu">
+					<button type="submit" class="btn btn-primary" >Giriş Yap</button>
+				</div>
+					
+				<div class ="mb-3" style="text-align:center">
+					<a href="/Home/SignUp">Hesabın yok mu ? Hemen Kaydol</a>
+				</div>
+					
+			</form>			
+		</div>		
+	</div>
+</div>

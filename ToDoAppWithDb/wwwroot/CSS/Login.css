@@ -1,0 +1,28 @@
+﻿.container{
+    
+        
+}
+.card{
+    background-color:whitesmoke;
+    width :340px;
+    margin:auto;    
+    height:400px;
+    border-radius:10px;
+
+    
+        
+}
+h4{
+    text-align:center;
+    padding:20px;
+
+}
+input{
+    border-radius:10px;
+}
+#huhu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

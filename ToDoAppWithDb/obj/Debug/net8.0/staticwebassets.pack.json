@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\CSS\\Login.css",
+      "PackagePath": "staticwebassets\\CSS\\Login.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ToDoAppWithDb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ToDoAppWithDb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ToDoAppWithDb.props",
+      "PackagePath": "build\\ToDoAppWithDb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ToDoAppWithDb.props",
+      "PackagePath": "buildMultiTargeting\\ToDoAppWithDb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ToDoAppWithDb.props",
+      "PackagePath": "buildTransitive\\ToDoAppWithDb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

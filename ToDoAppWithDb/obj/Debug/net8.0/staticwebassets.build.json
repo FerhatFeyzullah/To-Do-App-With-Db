@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "IDABi9aIKm8Q5cKLkJJES2HmTWGySK/g4i83MN1DWpQ=",
+  "Source": "ToDoAppWithDb",
+  "BasePath": "_content/ToDoAppWithDb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ToDoAppWithDb\\wwwroot",
+      "Source": "ToDoAppWithDb",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\",
+      "BasePath": "_content/ToDoAppWithDb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\CSS\\Login.css",
+      "SourceId": "ToDoAppWithDb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\",
+      "BasePath": "_content/ToDoAppWithDb",
+      "RelativePath": "CSS/Login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3auyi9y26z",
+      "Integrity": "NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\Login.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "CSS/Login.3auyi9y26z.css",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\CSS\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 16:00:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3auyi9y26z"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M="
+        }
+      ]
+    },
+    {
+      "Route": "CSS/Login.css",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\CSS\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 16:00:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M="
+        }
+      ]
+    }
+  ]
+}

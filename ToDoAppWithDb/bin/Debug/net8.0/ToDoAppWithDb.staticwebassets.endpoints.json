@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "CSS/Login.3auyi9y26z.css",
+      "AssetFile": "CSS/Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 16:00:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3auyi9y26z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M="
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/Login.css"
+        }
+      ]
+    },
+    {
+      "Route": "CSS/Login.css",
+      "AssetFile": "CSS/Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 16:00:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M="
+        }
+      ]
+    }
+  ]
+}
