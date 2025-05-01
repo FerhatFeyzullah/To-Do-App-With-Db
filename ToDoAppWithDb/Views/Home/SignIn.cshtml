@@ -2,21 +2,25 @@
 	Layout = "~/Views/Shared/_Layout1.cshtml";
 }
 
+@model LoginViewModel
+
 <link href="/CSS/Login.css" rel="stylesheet" />
 
 <div class="container">
-	<div class="card">
-		<div class="card-header"><h4 id="girisYapText">Giriş Yap</h4></div>
+	<div class="card mt-5">
+		<div class="card-header"><h4>Giriş Yap</h4></div>
 		<div class="card-body">					
-			<form method="post">				
+			<form method="post">	
 				<div class="mb-3">
-					<label for="exampleInputEmail1" class="form-label">E-Posta</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-					<div id="emailHelp" class="form-text">E-postanızı asla başkalarıyla paylaşmayacağız..</div>
+					<label class="form-label">E-Posta</label>
+					@Html.TextAreaFor(m => m.Email, new { @class = "form-control" })
+					@Html.ValidationMessageFor(m => m.Email, "", new { @style = "color:red" })
+					
 				</div>
 				<div class="mb-3">
-					<label for="exampleInputPassword1" class="form-label">Şifre</label>
-					<input type="password" class="form-control" id="exampleInputPassword1">
+					<label class="form-label">Şifre</label>
+					@Html.TextAreaFor(m => m.Password, new { @class = "form-control" })
+					@Html.ValidationMessageFor(m => m.Password, "", new { @style = "color:red" })
 				</div>
 				<div id="huhu">
 					<button type="submit" class="btn btn-primary" >Giriş Yap</button>
@@ -25,8 +29,16 @@
 				<div class ="mb-3" style="text-align:center">
 					<a href="/Home/SignUp">Hesabın yok mu ? Hemen Kaydol</a>
 				</div>
+				@if (ViewBag.LoginError != null)
+				{
+					<div class="alert alert-danger" style="width=50px;">
+						<div>@ViewBag.LoginError</div>
+					</div>
+				}
 					
 			</form>			
 		</div>		
 	</div>
 </div>
+
+

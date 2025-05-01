@@ -1,37 +1,48 @@
 ﻿@{
 	Layout = "~/Views/Shared/_Layout1.cshtml";
 }
+@model ToDoAppWithDb.Models.UserModel
 
 
 <link href="/CSS/Login.css" rel="stylesheet" />
 
 <div class="container">
-	<div class="card">
+	<div class="card mt-5">
 		<div class="card-header"><h4>Kaydol</h4></div>
 		<div class="card-body">
-			<form method="post">
-				<div class="mb-3">
-					<label for="exampleInputUser1" class="form-label">Kullanıcı Adı</label>
-					<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-				</div>
-				<div class="mb-3">
-					<label for="exampleInputEmail1" class="form-label">E-Posta</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-					<div id="emailHelp" class="form-text">E-postanızı asla başkalarıyla paylaşmayacağız..</div>
-				</div>
-				<div class="mb-3">
-					<label for="exampleInputPassword1" class="form-label">Şifre</label>
-					<input type="password" class="form-control" id="exampleInputPassword1">
-				</div>
-				<div id="huhu">
-					<button type="submit" class="btn btn-primary">Kaydol</button>
-				</div>
+            <form method="post">
+                <div class="mb-3">
+                    <label  class="form-label">Kullanıcı Adı</label>
+                    @Html.TextAreaFor(m=>m.Username,new {@class = "form-control"})
+                    @Html.ValidationMessageFor(m => m.Username, "", new { @style = "color:red" })
+                </div>
 
-				<div class="mb-3" style="text-align:center">
-					<a href="/Home/SignIn">Zaten hesabın var mı ? Giriş Yap</a>
-				</div>
+                <div class="mb-3">
+                    <label class="form-label">E-Posta</label>
+                    @Html.TextAreaFor(m => m.Email, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m=>m.Email, "",new {@style = "color:red"})
+                </div>
 
-			</form>
+                <div class="mb-3">
+                    <label class="form-label">Şifre</label>
+                    @Html.TextAreaFor(m => m.Password, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @style = "color:red" })
+                </div>
+
+                <div id="huhu">
+                    <button type="submit" class="btn btn-primary">Kaydol</button>
+                </div>
+
+                <div class="mb-3" style="text-align:center">
+                    <a href="/Home/SignIn">Zaten hesabın var mı? Giriş Yap</a>
+                </div>
+            </form>
+
 		</div>
 	</div>
 </div>
+
+
+
+
+
