@@ -22,12 +22,7 @@ namespace ToDoAppWithDb.Controllers
         {
             return View();
         }
-        [HttpGet]
-        public IActionResult ToDoList()
-        {
-
-            return View();
-        }
+       
 
         private readonly AppDbContext dbcontext;
 
@@ -67,29 +62,10 @@ namespace ToDoAppWithDb.Controllers
 
             HttpContext.Session.SetInt32("UserId", kullanici.Id);
     
-            return RedirectToAction("ToDoList","Home");
+            return RedirectToAction("ToDoAdd","Todo");
    
         }
-        [HttpPost]
-        public IActionResult ToDoList(TodoTaskModel td)
-        {
-            var userId = HttpContext.Session.GetInt32("UserId");
-            if (ModelState.IsValid)
-            {
-                var newTodo = new ToDo
-                {
-                    Task = td.Task,
-                    UserId = userId.Value
-                };
-                dbcontext.ToDos.Add(newTodo);
-                dbcontext.SaveChanges();
-                return RedirectToAction("ToDoList");
-            }
-            
-
-            return View();
-
-        }
+        
         
 
     }

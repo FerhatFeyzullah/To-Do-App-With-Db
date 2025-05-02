@@ -36,10 +36,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/ASP.NET/ToDoAppWithDb/ToDoAppWithDb/Views/Home/ToDoList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUb0RvTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Dell/Desktop/ASP.NET/ToDoAppWithDb/ToDoAppWithDb/Views/Shared/_Layout1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/ASP.NET/ToDoAppWithDb/ToDoAppWithDb/Views/Todo/ToDoAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9kb1xUb0RvQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/ASP.NET/ToDoAppWithDb/ToDoAppWithDb/Views/Todo/ToDoList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9kb1xUb0RvTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
