@@ -1,4 +1,18 @@
-﻿@{
+﻿@using ToDoAppWithDb.Models
+@{
     Layout = "~/Views/Shared/_Layout1.cshtml";
 }
+@model ToDo
+
+
+
+<div>
+    <form method="post">
+        <label class="form-label"> Yeni Görev</label>  
+        @Html.TextBoxFor(Todo => Todo.Task, new { @class = "form-control" })
+        @Html.ValidationMessageFor(Todo=>Todo.Task,"",new{@style="color:red"})
+        <button class="btn btn-primary">Görev Ekle</button>
+    
+    </form>
+</div>
 

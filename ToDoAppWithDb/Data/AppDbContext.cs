@@ -10,5 +10,6 @@ namespace ToDoAppWithDb.Data
         }
 
         public DbSet<UserModel> Users { get; set; }
+        public DbSet<ToDo> ToDos { get; set; }
     }
 }

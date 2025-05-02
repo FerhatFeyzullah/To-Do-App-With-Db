@@ -37,10 +37,6 @@ namespace ToDoAppWithDb.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.PrimitiveCollection<string>("Todolar")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -48,6 +44,47 @@ namespace ToDoAppWithDb.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("ToDoAppWithDb.ViewModel.ToDoViewModel", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<bool>("IsComp")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Task")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ToDos");
+                });
+
+            modelBuilder.Entity("ToDoAppWithDb.ViewModel.ToDoViewModel", b =>
+                {
+                    b.HasOne("ToDoAppWithDb.Models.UserModel", "User")
+                        .WithMany("Todolar")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ToDoAppWithDb.Models.UserModel", b =>
+                {
+                    b.Navigation("Todolar");
                 });
 #pragma warning restore 612, 618
         }

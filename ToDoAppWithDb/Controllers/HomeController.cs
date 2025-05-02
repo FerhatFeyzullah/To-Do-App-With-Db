@@ -5,6 +5,7 @@ using ToDoAppWithDb.Data;
 using ToDoAppWithDb.Models;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using Microsoft.AspNetCore.Http;
+using ToDoAppWithDb.ViewModel;
 
 
 
@@ -68,6 +69,26 @@ namespace ToDoAppWithDb.Controllers
     
             return RedirectToAction("ToDoList","Home");
    
+        }
+        [HttpPost]
+        public IActionResult ToDoList(TodoTaskModel td)
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+            if (ModelState.IsValid)
+            {
+                var newTodo = new ToDo
+                {
+                    Task = td.Task,
+                    UserId = userId.Value
+                };
+                dbcontext.ToDos.Add(newTodo);
+                dbcontext.SaveChanges();
+                return RedirectToAction("ToDoList");
+            }
+            
+
+            return View();
+
         }
         
 

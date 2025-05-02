@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using ToDoAppWithDb.ViewModel;
 
 namespace ToDoAppWithDb.Models
 {
@@ -19,11 +18,11 @@ namespace ToDoAppWithDb.Models
         [MinLength(6, ErrorMessage = "Şifre en az 6 karakter olmalı.")]
         public string Password { get; set; }
 
-        public List<string> Todolar { get; set; }
+        public List<ToDo> Todolar { get; set; }
 
         public UserModel()
         {
-            Todolar = new List<string>();
+            Todolar = new List<ToDo>();
         }
 
 
