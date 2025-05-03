@@ -8,5 +8,19 @@
 		td.classList.remove("completed");
 	}
 
-
+	fetch('/Todo/ToggleComplete', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify({ id: id, isComp: checkbox.checked })
+	})
+		.then(response => {
+			if (!response.ok) {
+				console.error("Güncelleme başarısız.");
+			}
+		})
+		.catch(error => {
+			console.error("Hata:", error);
+		});
 }

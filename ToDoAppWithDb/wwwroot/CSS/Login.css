@@ -1,7 +1,4 @@
-﻿.container{
-    
-        
-}
+﻿
 .card{
     background-color:whitesmoke;
     width :340px;
@@ -12,10 +9,15 @@
     
         
 }
-h4{
-    text-align:center;
-    padding:20px;
 
+#todoAddFormDiv {
+    background-color: whitesmoke;
+    width: 500px;
+    margin: auto;
+}
+h4 {
+    text-align: center;
+    padding: 20px;
 }
 input{
     border-radius:10px;

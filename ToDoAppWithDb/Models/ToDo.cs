@@ -7,7 +7,7 @@ namespace ToDoAppWithDb.Models
     {
         [Key]
         public int ID { get; set; }
-        [Required(ErrorMessage ="Allah Rızası İçin Boş Geçmeyelim.")]
+        [Required(ErrorMessage ="Elbet Yazacak Birşey Bulunur.")]
         public string Task { get; set; }
         public bool IsComp { get; set; }
         

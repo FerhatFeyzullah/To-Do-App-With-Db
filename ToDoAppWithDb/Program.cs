@@ -29,7 +29,7 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Home}/{action=SignIn}/{id?}");
+        pattern: "{controller=Home}/{action=MainPage}/{id?}");
 });
 
 app.Run();

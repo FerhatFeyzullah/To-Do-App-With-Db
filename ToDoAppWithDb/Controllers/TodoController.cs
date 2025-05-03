@@ -37,7 +37,7 @@ namespace ToDoAppWithDb.Controllers
                 return RedirectToAction("ToDoList");
             }
 
-
+            ViewBag.LoginError = "Elbet Yazacak Birşey Bulunur.";
             return View();
 
         }
@@ -47,6 +47,29 @@ namespace ToDoAppWithDb.Controllers
             var aktifUserId = HttpContext.Session.GetInt32("UserId");
             var list = dbcontext.ToDos.Include(u => u.User).Where(u => u.UserId == aktifUserId).ToList();
             return View(list);
+        }
+
+        [HttpPost]
+        public IActionResult ToggleComplete([FromBody] ToDo todoUpdate)
+        {
+            var todo = dbcontext.ToDos.FirstOrDefault(t => t.ID == todoUpdate.ID);
+            if (todo == null) return NotFound();
+
+            todo.IsComp = todoUpdate.IsComp;
+            dbcontext.SaveChanges();
+
+            return Ok();
+        }
+
+        public IActionResult Delete(int id) 
+        {
+        var tod = dbcontext.ToDos.Find(id);
+            if (tod != null)
+            {
+                dbcontext.ToDos.Remove(tod);
+                dbcontext.SaveChanges();
+            }
+            return RedirectToAction("ToDoList", "Todo");
         }
     }
 }

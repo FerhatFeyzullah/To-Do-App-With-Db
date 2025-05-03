@@ -22,6 +22,10 @@ namespace ToDoAppWithDb.Controllers
         {
             return View();
         }
+        public IActionResult MainPage() 
+        {
+            return View();
+        }
        
 
         private readonly AppDbContext dbcontext;

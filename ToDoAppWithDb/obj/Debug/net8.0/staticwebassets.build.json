@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9+hYihirUp+smHrlzkHNap+lCvIZzmNUWG2xV56/I2Q=",
+  "Hash": "nvt1XPzFGzi7rk7T4jwIx0ndilRA8uRKxvLfYH0bDfc=",
   "Source": "ToDoAppWithDb",
   "BasePath": "_content/ToDoAppWithDb",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3auyi9y26z",
-      "Integrity": "NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=",
+      "Fingerprint": "rqiw1nqfgo",
+      "Integrity": "4+MSDYnIIMJrQUwFpQ99P6oRn0YQLFuq4KnwaA8VXbg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CSS\\Login.css"
@@ -52,59 +52,14 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0mhg15qtor",
-      "Integrity": "2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo=",
+      "Fingerprint": "zalcna4sx5",
+      "Integrity": "2xVxDfnj1xww1KiJn6avMLpGKkHhs04sp2Zgd338CMc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\JS\\JavaScript.js"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "CSS/Login.3auyi9y26z.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\CSS\\Login.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 07:52:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3auyi9y26z"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/Login.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M="
-        }
-      ]
-    },
     {
       "Route": "CSS/Login.css",
       "AssetFile": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\CSS\\Login.css",
@@ -116,7 +71,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "430"
         },
         {
           "Name": "Content-Type",
@@ -124,11 +79,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\""
+          "Value": "\"4+MSDYnIIMJrQUwFpQ99P6oRn0YQLFuq4KnwaA8VXbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 07:52:09 GMT"
+          "Value": "Sat, 03 May 2025 10:07:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -138,13 +93,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M="
+          "Value": "sha256-4+MSDYnIIMJrQUwFpQ99P6oRn0YQLFuq4KnwaA8VXbg="
         }
       ]
     },
     {
-      "Route": "JS/JavaScript.0mhg15qtor.js",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\JS\\JavaScript.js",
+      "Route": "CSS/Login.rqiw1nqfgo.css",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\CSS\\Login.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -153,19 +108,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "261"
+          "Value": "430"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo=\""
+          "Value": "\"4+MSDYnIIMJrQUwFpQ99P6oRn0YQLFuq4KnwaA8VXbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 07:44:29 GMT"
+          "Value": "Sat, 03 May 2025 10:07:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -175,15 +130,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0mhg15qtor"
+          "Value": "rqiw1nqfgo"
         },
         {
           "Name": "label",
-          "Value": "JS/JavaScript.js"
+          "Value": "CSS/Login.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo="
+          "Value": "sha256-4+MSDYnIIMJrQUwFpQ99P6oRn0YQLFuq4KnwaA8VXbg="
         }
       ]
     },
@@ -198,7 +153,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "261"
+          "Value": "609"
         },
         {
           "Name": "Content-Type",
@@ -206,11 +161,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo=\""
+          "Value": "\"2xVxDfnj1xww1KiJn6avMLpGKkHhs04sp2Zgd338CMc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 07:44:29 GMT"
+          "Value": "Sat, 03 May 2025 08:07:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -220,7 +175,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo="
+          "Value": "sha256-2xVxDfnj1xww1KiJn6avMLpGKkHhs04sp2Zgd338CMc="
+        }
+      ]
+    },
+    {
+      "Route": "JS/JavaScript.zalcna4sx5.js",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\JS\\JavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2xVxDfnj1xww1KiJn6avMLpGKkHhs04sp2Zgd338CMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 08:07:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zalcna4sx5"
+        },
+        {
+          "Name": "label",
+          "Value": "JS/JavaScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2xVxDfnj1xww1KiJn6avMLpGKkHhs04sp2Zgd338CMc="
         }
       ]
     }
