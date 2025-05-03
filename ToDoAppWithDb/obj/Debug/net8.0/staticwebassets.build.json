@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IDABi9aIKm8Q5cKLkJJES2HmTWGySK/g4i83MN1DWpQ=",
+  "Hash": "9+hYihirUp+smHrlzkHNap+lCvIZzmNUWG2xV56/I2Q=",
   "Source": "ToDoAppWithDb",
   "BasePath": "_content/ToDoAppWithDb",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CSS\\Login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\JS\\JavaScript.js",
+      "SourceId": "ToDoAppWithDb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\",
+      "BasePath": "_content/ToDoAppWithDb",
+      "RelativePath": "JS/JavaScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0mhg15qtor",
+      "Integrity": "2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JS\\JavaScript.js"
     }
   ],
   "Endpoints": [
@@ -62,7 +83,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:00:45 GMT"
+          "Value": "Sat, 03 May 2025 07:52:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -107,7 +128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:00:45 GMT"
+          "Value": "Sat, 03 May 2025 07:52:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -118,6 +139,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M="
+        }
+      ]
+    },
+    {
+      "Route": "JS/JavaScript.0mhg15qtor.js",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\JS\\JavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 07:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0mhg15qtor"
+        },
+        {
+          "Name": "label",
+          "Value": "JS/JavaScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo="
+        }
+      ]
+    },
+    {
+      "Route": "JS/JavaScript.js",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\JS\\JavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 07:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo="
         }
       ]
     }

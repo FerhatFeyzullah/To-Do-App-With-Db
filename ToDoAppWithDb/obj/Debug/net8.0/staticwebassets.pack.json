@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\CSS\\Login.css"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\ASP.NET\\ToDoAppWithDb\\ToDoAppWithDb\\wwwroot\\JS\\JavaScript.js",
+      "PackagePath": "staticwebassets\\JS\\JavaScript.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ToDoAppWithDb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

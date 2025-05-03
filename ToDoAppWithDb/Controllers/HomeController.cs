@@ -61,7 +61,9 @@ namespace ToDoAppWithDb.Controllers
             }
 
             HttpContext.Session.SetInt32("UserId", kullanici.Id);
-    
+            HttpContext.Session.SetString("Username", kullanici.Username);
+
+
             return RedirectToAction("ToDoAdd","Todo");
    
         }

@@ -4,13 +4,25 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CSS\Login.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3auyi9y26z"},{"Name":"integrity","Value":"sha256-NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M="},{"Name":"label","Value":"_content/ToDoAppWithDb/CSS/Login.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 16:00:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 07:52:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ToDoAppWithDb/CSS/Login.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CSS\Login.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 16:00:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"362"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NXyLOXCSnqrdrOlPLcpDzyxmOV1UQC5vlZ05R7bct0M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 07:52:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ToDoAppWithDb/JS/JavaScript.0mhg15qtor.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\JS\JavaScript.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0mhg15qtor"},{"Name":"integrity","Value":"sha256-2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo="},{"Name":"label","Value":"_content/ToDoAppWithDb/JS/JavaScript.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"261"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 07:44:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ToDoAppWithDb/JS/JavaScript.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\JS\JavaScript.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"261"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222I189rZBDXXi26XUf4cRTG2pIn8UMHtdNHTFml8lhgo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 07:44:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

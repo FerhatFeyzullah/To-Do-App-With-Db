@@ -3,8 +3,14 @@
 }
 
 @model List<ToDoAppWithDb.Models.ToDo>
+<style>
+	.completed {
+		text-decoration: line-through;
+		color: gray;
+	}
+</style>
 
-
+<b><p>Hoşgeldin, @Context.Session.GetString("Username")</p></b>
 
 <table class="table table-bordered">
 	<thead>
@@ -18,8 +24,14 @@
 		@foreach (var t in Model)
 		{
 			<tr>
-				<td>@t.Task</td>
-				<td>@t.IsComp</td>
+				<td id="td-@t.ID" class="@(t.IsComp ? "completed" : "")">
+					@t.Task
+				</td>
+				<td>
+					<input type="checkbox" class="form-check-input" id="cb-@t.ID"
+					@(t.IsComp ? "checked" : "")
+						   onchange="toggleComplete(@t.ID)" />
+				</td>
 			</tr>
 		}
 
@@ -29,3 +41,4 @@
 <div class="mt-5">
 	<a href="/Todo/ToDoAdd" class="btn btn-primary">Yeni Görev Ekle</a>
 </div>
+
