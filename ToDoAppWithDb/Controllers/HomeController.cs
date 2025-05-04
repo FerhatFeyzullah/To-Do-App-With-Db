@@ -68,7 +68,7 @@ namespace ToDoAppWithDb.Controllers
             HttpContext.Session.SetString("Username", kullanici.Username);
 
 
-            return RedirectToAction("ToDoAdd","Todo");
+            return RedirectToAction("ToDoList","Todo");
    
         }
         

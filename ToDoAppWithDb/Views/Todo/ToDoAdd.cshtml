@@ -32,9 +32,10 @@
                     <a class="nav-link active" aria-current="page" href="/Todo/ToDoList">Görevleri Görüntüle</a>
                 </li>               
             </ul>
-            <span class="navbar-text">
+            <span class="navbar-text me-3">
 				<b>Hoşgeldin - @Context.Session.GetString("Username")</b>
             </span>
+            <a href="/Home/MainPage" type="button" class="btn btn-outline-danger" style="width:70px;">Çıkış</a>
         </div>
     </div>
 </nav>
@@ -46,9 +47,8 @@
     <div class="input-group mb-3">
 		<form method="post" id="form1">
 			@Html.TextBoxFor(Todo => Todo.Task, new { @class = "form-control", placeholder = "Yeni Görevinini Yaz", aria_label = "Yeni Görevinini Yaz", aria_describedby = "button-addon2" })
-			@* @Html.ValidationMessageFor(Todo => Todo.Task, "", new { @style = "color:red" ,text_align = "center"}) *@
             <div class="d-flex justify-content-center" style="margin-top:10px">
-				<button class="btn btn-outline-secondary" type="submit" id="button-addon2" style="width:75px">Ekle</button>
+				<button class="btn btn-outline-success" type="submit" id="button-addon2" style="width:75px">Ekle</button>
             </div>
             @if (ViewBag.LoginError != null)
             {

@@ -71,5 +71,36 @@ namespace ToDoAppWithDb.Controllers
             }
             return RedirectToAction("ToDoList", "Todo");
         }
+
+        [HttpGet]
+        public IActionResult ToDoEdit(int id)
+        {
+            var todo = dbcontext.ToDos.FirstOrDefault(t => t.ID == id);
+            if (todo == null) return NotFound();
+
+            return View(todo);
+        }
+
+        [HttpPost]
+        public IActionResult ToDoEdit(ToDo updatedTodo)
+        {
+            if (!string.IsNullOrWhiteSpace(updatedTodo.Task))
+            {
+                var todo = dbcontext.ToDos.FirstOrDefault(t => t.ID == updatedTodo.ID);
+                if (todo == null) return NotFound();
+
+                todo.Task = updatedTodo.Task;
+                todo.IsComp = false;
+                dbcontext.SaveChanges();
+
+                return RedirectToAction("ToDoList");
+            }
+            ViewBag.EditError = "Elbet Yazacak Birşey Bulunur.";
+            return View();
+            
+
+
+        }
+
     }
 }

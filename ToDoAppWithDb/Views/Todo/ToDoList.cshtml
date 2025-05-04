@@ -23,6 +23,7 @@
 	h3{
 		text-align:center;
 	}
+	
 
 </style>
 
@@ -42,9 +43,10 @@
 					<a class="nav-link active" aria-current="page" href="/Todo/ToDoAdd">Yeni Görev Ekle</a>
 				</li>
 			</ul>
-			<span class="navbar-text">
+			<span class="navbar-text me-4">
 				<b>Hoşgeldin - @Context.Session.GetString("Username")</b>
 			</span>
+			<a href="/Home/MainPage" type="button" class="btn btn-outline-danger" style="width:70px;">Çıkış</a>
 		</div>
 	</div>
 </nav>
@@ -56,7 +58,8 @@
 		<tr>
 			<th>Görevler</th>
 			<th style="width:50px; text-align:center;">Durum</th>
-			<th style="width:110px; text-align:center;">Silme</th>
+			<th style="width:60px; text-align:center;">Sil</th>
+			<th style="width:100px; text-align:center;">Düzenle</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -73,7 +76,10 @@
 						   onchange="toggleComplete(@t.ID)" />						  
 				</td>
 				<td>
-					<a href="/Todo/Delete/@t.ID" class="btn btn-danger">Görevi Sil</a>
+					<a href="/Todo/Delete/@t.ID" class="btn btn-danger">Sil</a>
+				</td>
+				<td>
+					<a href="/Todo/ToDoEdit/@t.ID" class="btn btn-warning">Düzenle</a>
 				</td>
 			</tr>
 		}

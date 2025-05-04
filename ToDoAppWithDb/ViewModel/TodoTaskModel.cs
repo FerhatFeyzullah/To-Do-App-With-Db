@@ -7,5 +7,6 @@ namespace ToDoAppWithDb.ViewModel
 
         [Required(ErrorMessage = "Allah Rızası İçin Boş Geçmeyelim.")]
         public string Task { get; set; }
+        public int ID { get; internal set; }
     }
 }
